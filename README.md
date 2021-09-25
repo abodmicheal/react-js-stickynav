@@ -1,9 +1,8 @@
-# react-js-stickynav 
-<p align="center">
-  TEST
+<p align="center" style="color: #343a40">
+  <img src="https://raw.githubusercontent.com/abodmicheal" alt="stickyNav logo" height="150" width="150">
+  <h1 align="center">react-js-stickynav</h1>
 </p>
-
-> A simple react js nav bar onscroll
+<p align="center" style="font-size: 1.2rem;">A simple react js nav bar onscroll</p>
 
 [![NPM](https://img.shields.io/npm/v/react-js-stickynav.svg)](https://www.npmjs.com/package/react-js-stickynav) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
