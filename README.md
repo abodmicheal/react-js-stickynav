@@ -1,6 +1,8 @@
 # react-js-stickynav
 
-> <center>A simple react js nav bar onscroll</center>
+> <p align="center">
+  
+A simple react js nav bar onscroll</center> </p>
 
 [![NPM](https://img.shields.io/npm/v/react-js-stickynav.svg)](https://www.npmjs.com/package/react-js-stickynav) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
