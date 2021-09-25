@@ -1,5 +1,5 @@
 <p align="center" style="color: #343a40">
-  <img src="https://raw.githubusercontent.com/abodmicheal" alt="stickyNav logo" height="150" width="150">
+  <img src="https://raw.githubusercontent.com/abodmicheal/react-js-stickynav/main/sticky%20logo.png" alt="stickyNav logo" height="150" width="150">
   <h1 align="center">react-js-stickynav</h1>
 </p>
 <p align="center" style="font-size: 1.2rem;">A simple react js nav bar onscroll</p>
