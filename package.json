@@ -4,7 +4,7 @@
   "description": "a simple reactjs nav bar onscroll",
   "author": "abodmicheal",
   "license": "MIT",
-  "repository": "https://github.com/abodmicheal/react-js-dialog-box",
+  "repository": "https://github.com/abodmicheal/react-js-stickynav",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
