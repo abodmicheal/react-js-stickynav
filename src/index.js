@@ -27,7 +27,7 @@ export class StickyNav extends React.Component {
   }
 
   render() {
-      console.log(this.props);
+      //console.log(this.props);
     return (
       <div>
         <div className={`nav ${this.state.nav && 'scrollNav'}`}>
