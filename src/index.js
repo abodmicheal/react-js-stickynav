@@ -1,39 +1,24 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import styles from './styles.module.css'
 
-export class StickyNav extends React.Component {
-  constructor(props) {
-    super(props)
-  }
-  listener = null
-  state = {
-    nav: false
-  }
+const StickyNav = (props) => {
+    const [nav, setNav] = useState(false)
 
-  componentDidMount() {
-    window.addEventListener('scroll', this.handleScroll)
-  }
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll)
+    });
 
-  handleScroll = () => {
-    if (window.pageYOffset > this.props.length) {
-      if (!this.state.nav) {
-        this.setState({ nav: true })
-      }
-    } else {
-      if (this.state.nav) {
-        this.setState({ nav: false })
-      }
+    const handleScroll = () => {
+        window.pageYOffset > props.length ? !nav && setNav(true) : nav && setNav(false)
     }
-  }
 
-  render() {
-      console.log(this.props);
     return (
-      <div>
-        <div className={`nav ${this.state.nav && 'scrollNav'}`}>
-          {this.props.children}
+        <div>
+            <div className={`nav ${nav && 'scrollNav'}`}>
+                {props.children}
+            </div>
         </div>
-      </div>
     )
-  }
 }
+
+export default StickyNav;

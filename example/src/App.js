@@ -1,5 +1,5 @@
 import React from 'react'
-import { StickyNav } from 'react-js-stickynav'
+import StickyNav from 'react-js-stickynav'
 import 'react-js-stickynav/dist/index.css'
 
 const App = () => {
